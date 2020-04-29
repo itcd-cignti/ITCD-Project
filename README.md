@@ -1,15 +1,16 @@
-# ITCD-Cigniti
-# node-tesseract-ocr
+# ITCD-Cignit
 
-// Install the below packages //
-# npm i 
-# npm i express
-# npm i tesseract.js
-# npm i multer
-# npm i ejs
+# node-tesseractjs-ocr
 
-//Steps to run code
+//Install the below packages//
+# npm i
+# npm i express@4.17.1
+# npm i tesseract.js@1.0.19
+# npm i multer@1.4.2
+# npm i ejs@2.7.4"
+
+//Steps to run code//
 # node server.js
 
-//Run in web browser
-# 127.0.0.1:8080
+//Run in browser//
+# 127.0.0.1:5000

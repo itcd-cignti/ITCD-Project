@@ -1,21 +1,19 @@
 {
-  "name": "tesseract-node",
+  "name": "itcd-cigniti",
   "version": "1.0.0",
-  "description": "image extraction into text by using tesseract module",
-  "main": "server.js",
+  "description": "Image to text extracion by using tesseract.js module",
+  "main": "index.js",
+  "dependencies": {
+    "ejs": "^2.7.4",
+    "express": "^4.17.1",
+    "multer": "^1.4.2",
+    "tesseract.js": "^1.0.19"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "author": "abhi",
-  "license": "ISC",
-  "dependencies": {
-    "ejs": "^3.1.2",
-    "exit-on-epipe": "^1.0.1",
-    "express": "^4.17.1",
-    "multer": "^1.4.2",
-    "png-js": "^1.0.0",
-    "qrcode-reader": "^1.0.4",
-    "tesseract.js": "^2.1.1"
-  }
+  "license": "ISC"
 }
